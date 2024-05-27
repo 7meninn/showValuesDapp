@@ -1,0 +1,35 @@
+.heading {
+    color:purple;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    width:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connect-btn {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 16px;
+    color: #222222;
+    background-color: white;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.level2 {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #222222;
+}
