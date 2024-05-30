@@ -5,13 +5,31 @@
 </head>
 <body>
         <h2 class="heading">ETH+AVAX Proof Module 2</h2>
-        <button class="connect-btn" onclick="start()" id="cnct-bt">Connect</button>
-    <div class="level2">
-        <p class="name" id="name-p">Name :</p>
-        <p class="uid" id="uid-p">UID :</p>
-        <p class="platform" id="platform-p">Platform :</p>
-    </div>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+        <button class="connect-btn" id="cnct-bt">Connect</button>
+        <div class="level1">
+            <input id="inpname" class="inp" type="text" placeholder="Any Name...">
+            <button class="btn" id="setname-btn">Set Name</button>
+        </div>
+        <div class="level1">
+            <input id="inpuid" class="inp" type="text" placeholder="Any UID...">
+            <button class="btn" id="setuid-btn">Set UID</button>
+        </div>
+        <div class="level1">
+            <input id="inpplat" class="inp" type="text" placeholder="Any Platform...">
+            <button class="btn" id="setplat-btn">Set Platform</button>
+        </div>
+        <div class="level2">
+            <button  class="btn" id="name-btn">Show Name</button>
+            <p class="text" id="name-p">Name :</p>
+        </div>
+        <div class="level2">
+            <button class="btn" id="uid-btn">Show UID</button>
+            <p class="text" id="uid-p">UID :</p>
+        </div>
+        <div class="level2">
+            <button class="btn" id="plat-btn">Show Platform</button>
+            <p class="text" id="platform-p">Platform :</p>
+        </div>
+        <script src="index.js" type="Module"></script>
 </body>
 </html>

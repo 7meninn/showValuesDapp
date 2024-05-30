@@ -12,24 +12,40 @@
 
 .connect-btn {
     display: block;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 16px;
+    padding:10px;
     color: #222222;
-    background-color: white;
+    background-color:khaki;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
 }
 
 .level2 {
-    display: block;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-radius: 16px;
     color: #222222;
+    background-color:beige;
+    font-weight: lighter;
+}
+.text {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.level1 {
+    display : flex;
+    justify-content: center;
+    margin-top: 20px;
 }
